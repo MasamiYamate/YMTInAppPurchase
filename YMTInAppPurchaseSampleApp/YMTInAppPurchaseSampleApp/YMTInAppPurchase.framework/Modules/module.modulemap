@@ -1,0 +1,11 @@
+framework module YMTInAppPurchase {
+  umbrella header "YMTInAppPurchase.h"
+
+  export *
+  module * { export * }
+}
+
+module YMTInAppPurchase.Swift {
+    header "YMTInAppPurchase-Swift.h"
+    requires objc
+}
