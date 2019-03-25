@@ -7,7 +7,7 @@ With this framework, we can easily handle such in-app purchase item processing.
 
 
 ## Installation 
-Just add YMTVersionAlert.framework foloder to your project  
+Just add YMTInAppPurchaseFramework.framework foloder to your project  
 or use CocoaPods with Podfile:
 
 ```
