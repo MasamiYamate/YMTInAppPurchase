@@ -165,6 +165,7 @@ class YMTPayment: NSObject , SKProductsRequestDelegate , SKPaymentTransactionObs
     
     //MARK: - Transaction process methods
     
+    
     func startTransaction (_ product: SKProduct , callback: ((String?) -> Void)?) {
         endUnfinishedTransaction()
         SKPaymentQueue.default().add(self)

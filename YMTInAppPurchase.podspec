@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
 s.name         = "YMTInAppPurchase"
-s.version      = "1.0"
+s.version      = "1.1"
 s.summary      = "Framework to handle In-App Purchase"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.homepage     = "https://github.com/MasamiYamate/YMTInAppPurchaseFramework.git"
@@ -15,5 +15,6 @@ s.author       = { "MasamiYamate" => "yamate.inquiry@mail.yamatte.net" }
 s.source       = { :git => "https://github.com/MasamiYamate/YMTInAppPurchaseFramework.git", :tag => "#{s.version}" }
 s.platform     = :ios, "9.0"
 s.requires_arc = true
-s.source_files = 'YMTGetDeviceName/**/*.{swift}'
+s.source_files = 'YMTInAppPurchase/**/*.{swift}'
+s.swift_versions = ['3.2', '4.0', '4.2' , '5.0']
 end
